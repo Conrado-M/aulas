@@ -42,3 +42,7 @@ console.log(f1.getSalario(), f2.getSalario())
 const filha = Object.create(null) // sem herança
 filha.nome = 'Ana'
 console.log(filha)
+
+// Uma função famosa que retorna Objeto....
+const fromJSON = JSON.parse('{"info": "Sou um JSON"}')
+console.log(fromJSON.info)
